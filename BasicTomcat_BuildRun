@@ -1,0 +1,3 @@
+docker build -t mkwalter/tomcat .
+docker run -d -P --name TC01 mkwalter/tomcat
+#docker run -d -P --name TCV01 -v /home/mkwalter/tomcat/webapps:/usr/local/tomcat/webapps mkwalter/tomcat // local volume attachment
